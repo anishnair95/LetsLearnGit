@@ -2,7 +2,7 @@
 #include<unordered_map>
 using namespace std;
 int main(){
-
+   //comments
    int arr[]={1,20,3,1,20,44,20,6,20};
    int n=sizeof(arr)/sizeof(int);
   unordered_map<int,int>m;
