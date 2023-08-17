@@ -4,6 +4,7 @@
 using namespace std;
 int main(){
 
+//comments
   cout<<"Changes in the branch - Fetch and sync using github" ;
   string s;
 
@@ -29,4 +30,18 @@ int main(){
 static void sortArray(int arr[]) {
   int n = sizeof(arr)/sizeof(int);
   sort(arr, arr + n);
+}
+
+static bool isPalindrome(string s) {
+  int i = 0;
+  int j = s.length()-1;
+
+  while ( i < j) {
+    if (s[i] != s[j]) {
+      return false;
+    }
+    i++;
+    j--;
+  }
+  return true;
 }
